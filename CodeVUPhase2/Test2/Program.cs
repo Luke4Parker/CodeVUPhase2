@@ -1,4 +1,8 @@
 ﻿using System;
+using System.Text;
+using System.IO;
+using System.Collections.Generic;
+
 
 namespace Test2
 {
@@ -42,11 +46,9 @@ namespace Test2
     }
     class Program
     {
-        static void Main(string[] args)
-        {
-            Contact contact1 = new Contact("Name", "Place", "Thing", "Idea");
-            Contact contact2 = contact1;
-            Console.WriteLine(contact2);
-        }
+        
+            
     }
+
+    
 }
